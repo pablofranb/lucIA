@@ -1,0 +1,28 @@
+Conjunto: val | 296 frases (124 hipoteca, 172 otro)
+Umbral: 0.5
+
+Accuracy  : 0.959   (proporción de aciertos)
+Precision : 0.959   (de las que dice HIPOTECA, cuántas lo son)
+Recall    : 0.944   (de las que son HIPOTECA, cuántas detecta)
+F1        : 0.951   (media entre precision y recall)
+ROC-AUC   : 0.990   (calidad de la probabilidad para ordenar, 1 = perfecto)
+
+Matriz de confusión:
+                 predice OTRO   predice HIPOTECA
+  real OTRO          167              5
+  real HIPOTECA        7            117
+
+Dudosas (P(hipoteca) entre 0.2 y 0.8): 2, de las cuales 1 serían errores
+Accuracy sin contar las dudosas: 0.963
+
+Cómo cambian los resultados con el umbral (elige UMBRAL con esta tabla):
+Umbral  Precision  Recall  F1     Falsas alarmas  Hipotecas perdidas
+  0.1      0.952   0.952  0.952               6                   6
+  0.2      0.952   0.952  0.952               6                   6
+  0.3      0.952   0.952  0.952               6                   6
+  0.4      0.959   0.952  0.955               5                   6
+  0.5      0.959   0.944  0.951               5                   7
+  0.6      0.959   0.944  0.951               5                   7
+  0.7      0.959   0.944  0.951               5                   7
+  0.8      0.959   0.944  0.951               5                   7
+  0.9      0.967   0.944  0.955               4                   7

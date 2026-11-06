@@ -1,0 +1,14 @@
+# entorno virtual
+.venv/
+venv/
+
+# vs code
+.vscode/
+
+# modelo entrenado (~420 MB): no se sube a git
+models/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

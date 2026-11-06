@@ -1,0 +1,16 @@
+Conjunto: test | 258 frases (109 hipoteca, 149 otro)
+Umbral: 0.5
+
+Accuracy  : 0.988   (proporción de aciertos)
+Precision : 0.973   (de las que dice HIPOTECA, cuántas lo son)
+Recall    : 1.000   (de las que son HIPOTECA, cuántas detecta)
+F1        : 0.986   (media entre precision y recall)
+ROC-AUC   : 0.999   (calidad de la probabilidad para ordenar, 1 = perfecto)
+
+Matriz de confusión:
+                 predice OTRO   predice HIPOTECA
+  real OTRO          146              3
+  real HIPOTECA        0            109
+
+Dudosas (P(hipoteca) entre 0.2 y 0.8): 3, de las cuales 1 serían errores
+Accuracy sin contar las dudosas: 0.992

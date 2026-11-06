@@ -1,0 +1,13 @@
+﻿text,label,p_hipoteca,prediccion
+¿Cuánto tiempo tardáis en emitir el certificado de saldo cero después de cancelar?,1,0.0007,0
+"Buenas, ¿me puedo acoger al Código de Buenas Prácticas? Mis ingresos han bajado mucho.",1,0.0013,0
+"Quiero comprar un local para montar mi clínica dental, ¿me financiáis con garantía del propio local?",1,0.0034,0
+"Si me llevo lo que debo del piso a otra entidad, ¿tengo que cancelar también la cuenta y las tarjetas?",1,0.0043,0
+aval ico jovenes como funciona,1,0.0268,0
+"el seguro de hogar que me pedis es carisimo, puedo llevar el mio y que no me quiten la bonificacion",1,0.081,0
+"Normalmente, ¿qué porcentaje del precio de compra cubrís?",1,0.404,0
+Mi hija se va a vivir a Granada y el casero pide aval; ¿lo puedo firmar yo desde aquí?,0,0.8743,1
+¿Puedo llevar a la oficina la copia de los poderes del notario para que mi sobrino opere en mi nombre?,0,0.9976,1
+¿Tenéis depósitos a 12 meses? Lo de la vivienda ya lo tengo resuelto,0,0.9986,1
+Quisiera saber la TAE del préstamo preconcedido q me aparece en la banca online.,0,0.9996,1
+"A ver, ¿puedo rescatar el plan de pensiones para pagar al contado mi primera vivienda?",0,0.9997,1
