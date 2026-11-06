@@ -1,7 +1,7 @@
 import math
 import re
 
-from calculadora_hipoteca import calcular_hipoteca
+from lucia.calculadora_hipoteca import calcular_hipoteca
 
 
 PREGUNTAS = [

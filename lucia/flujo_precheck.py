@@ -1,7 +1,7 @@
 import unicodedata
 
-from flujo_hipoteca import leer_numero
-from precheck_hipoteca import (
+from lucia.flujo_hipoteca import leer_numero
+from lucia.precheck_hipoteca import (
     NUMERICAS,
     preparar_precheck,
     evaluar_precheck,

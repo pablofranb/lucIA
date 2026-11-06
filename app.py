@@ -3,11 +3,11 @@ import unicodedata
 
 import streamlit as st
 
-from conexion_clasificador import clasificar_mensaje
-from conexion_rag import responder_consulta
-from detector_operacion import detectar_operacion
-from flujo_hipoteca import iniciar_hipoteca, continuar_hipoteca
-from flujo_precheck import iniciar_precheck, continuar_precheck
+from lucia.conexion_clasificador import clasificar_mensaje
+from lucia.conexion_rag import responder_consulta
+from lucia.detector_operacion import detectar_operacion
+from lucia.flujo_hipoteca import iniciar_hipoteca, continuar_hipoteca
+from lucia.flujo_precheck import iniciar_precheck, continuar_precheck
 
 
 def normalizar(texto):

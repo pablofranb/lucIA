@@ -4,7 +4,7 @@ from pathlib import Path
 import streamlit as st
 
 
-BASE = Path(__file__).resolve().parent
+BASE = Path(__file__).resolve().parent.parent
 CARPETA_CLASIFICADOR = BASE / "clasificador"
 CARPETA_CODIGO = CARPETA_CLASIFICADOR / "src"
 CARPETA_MODELO = CARPETA_CLASIFICADOR / "models" / "beto-hipotecas"

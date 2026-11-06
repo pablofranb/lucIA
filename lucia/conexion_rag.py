@@ -3,7 +3,7 @@ from pathlib import Path
 
 import streamlit as st
 
-BASE = Path(__file__).resolve().parent
+BASE = Path(__file__).resolve().parent.parent
 CARPETA_PROYECTO = BASE / "Preguntas_frecuentes"
 CARPETA_RAG = CARPETA_PROYECTO / "rag"
 

@@ -11,7 +11,7 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.linear_model import LogisticRegression
 
 
-RUTA_DATOS = Path(__file__).resolve().parent / "Risk.xlsx"
+RUTA_DATOS = Path(__file__).resolve().parent.parent / "datos" / "Risk.xlsx"
 
 NUMERICAS = [
     "age",
